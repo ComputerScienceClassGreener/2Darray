@@ -38,6 +38,15 @@ public class Main {
             }
         }
 
+         for (int x=0; x<3; x++){
+            for (int y = 0;y<3;y++){
+                
+                System.out.println(arr[x][y]);
+                
+               
+            }
+        }
+        
         System.out.println(Arrays.deepToString(arr));
     }
 
