@@ -38,6 +38,29 @@ public class Main {
             }
         }
 
+        System.out.println("who would you like to search for?");
+        
+        String search = scan.nextLine();
+        
+        boolean found = false;
+        
+        
+        
+        for (int x=0; x<3; x++){
+            for (int y = 0;y<3;y++){
+        if (search.equals(arr[x][y])){
+            found = true;
+                     
+        }
+        
+            }
+        } if (found==true){
+            System.out.println(search + " has been found");
+        }
+        else{
+            System.out.println(search + " has not been found");
+        }
+    
          for (int x=0; x<3; x++){
             for (int y = 0;y<3;y++){
                 
